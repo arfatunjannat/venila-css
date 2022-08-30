@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: black;
+    color: white;
+    margin: 60px;
+    padding: 30px;
+    height: 600px;
+    border-radius: 15px;
+}
+.header:hover{
+    background-color: gray;
+    transition: 2s;
+}
+.main-heder{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.header-imges{
+    
+    width: 600px;
+    height: 600px;
+    margin-left: 200px;
+}
+.header-h1{
+font-size: 60px;
+}
+.header-text{
+    margin-top: 80px;
+}
+.all-btn{
+    background-color: rgb(240, 61, 61);
+    padding: 15px;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid azure;
+    cursor: auto;
+    margin-top: 10px;
+}
+.all-btn:hover{
+    background-color:hotpink;
+    transition: 1s;
+}
+
+/* card part */
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.box-item{
+background-color: black;
+margin: 5px;
+padding: 12px;
+color: white;
+border-radius: 8px;
+box-shadow: 8px 10px 12px gray;
+width: 200px;
+height: 200px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.main-card-item{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: 8px;
+   padding: 8px;
+    
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------footer part */
+.footer{
+    background-color: black;
+    margin-top: 70px;
+    padding: 40px;
+
+}
+.footer-flex{
+    display: flex;
+    justify-content: center;
+}
+.footer-h3{
+    color: white;
+    margin: 7px;
+    margin-left: 650px;
+    font-size: 35px;
+    
+    
+}
+.footer-h6{
+    color: white;
+    margin: 7px;
+    font-size: 15px;
+    
+}
+.icon{
+    background-color:white;
+    width: 30px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+.icon:hover{
+    background-color: red;
+    transition: 1s;
+}
+.icon-2{
+    background-color:white;
+    width: 27px;
+    color: gray;
+    margin: 5px;
+    padding: 5px;
+}
+.icon-2:hover{
+    background-color: gray;
+    transition: 1s;
+}
+
+
+
+
+
+
