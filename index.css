@@ -51,27 +51,87 @@ font-size: 60px;
     grid-template-columns: repeat(2,1fr);
 }
 .box-item{
-background-color: black;
+background-color: gray;
 margin: 5px;
-padding: 12px;
+margin-left: 120px;
+margin-top: 30px;
+padding: 20px;
 color: white;
 border-radius: 8px;
 box-shadow: 8px 10px 12px gray;
-width: 200px;
-height: 200px;
+width: 250px;
+height: 210px;
 }
-.card{
+.box-item:hover{
+    background-color: aqua;
+    transition: 2s;
+}
+.box-upcoming{
+    background-color: red;
+    margin: 12px;
+    padding: 14px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.box-upcoming:hover{
+background-color: rgb(17, 226, 17);
+}
+.box-a{
+    text-decoration: none;
+}
+
+.box-all-gruop{
+    background-color: mediumvioletred;
+    margin: 12px;
+    padding: 14px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.box-all-gruop:hover{
+background-color: green;
+}
+
+.Blog{
+    background-color: rgb(12, 236, 12);
+    margin: 12px;
+    padding: 14px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.Blog:hover{
+background-color: rgb(69, 22, 208);
+}
+/* main-card */
+/* .card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-}
+} */
 .main-card-item{
     display: grid;
    grid-template-columns: repeat(3,1fr);
    margin: 8px;
    padding: 8px;
+   
+   
     
 }
-
+.card-item{
+    border: 1px solid gray;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card-img{
+    margin-left: 9px;
+    margin: 5px;
+}
+.card-icon{
+    display: flex;
+    margin: 8px;
+}
 
 
 
